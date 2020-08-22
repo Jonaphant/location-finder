@@ -80,14 +80,17 @@ a {
 #city {
   margin-bottom: 8px;
   position: relative;
-  font-size: 0px;
-  line-height: 0px;
   font-weight: bold;
 }
 
 .animate-city {
   animation: growUp72 3s;
   animation-fill-mode: forwards;
+}
+
+/* Border used to smooth transition of text update */
+.invisible-border {
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 /** 

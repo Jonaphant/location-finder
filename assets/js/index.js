@@ -26,4 +26,9 @@ function showCity(city) {
   // Toggle animations
   cityElement.classList.add('animate-city');
   underlineElement.classList.add('animate-underline');
+
+  // Remove border after animation to meet spacing specifications
+  setTimeout(() => {
+    cityElement.classList.remove('invisible-border');
+  }, 1000);
 }
