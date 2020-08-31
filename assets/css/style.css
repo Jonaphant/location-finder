@@ -1,5 +1,5 @@
 /* Default font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -190,7 +190,7 @@ a {
 /**
  * Mobile styles
  */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 568px) {
   p.city-prompt {
     font-weight: normal;
     font-size: 24px;
