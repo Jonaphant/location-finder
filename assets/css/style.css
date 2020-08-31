@@ -48,10 +48,13 @@ a {
 
 .wrapper {
   height: 100%;
+  overflow: hidden;
+}
+
+.flex-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .text-container {
